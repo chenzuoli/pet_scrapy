@@ -28,3 +28,4 @@ class PetSpiderItem(scrapy.Item):
     img = scrapy.Field()
     name = scrapy.Field()
     iq = scrapy.Field()
+    url = scrapy.Field()
